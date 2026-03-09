@@ -12,8 +12,8 @@ from pathlib import Path
 #   export GEMINI_API_KEY=AI...
 #
 # Option B: paste directly here (never commit to git)
-GROQ_API_KEY   = os.environ.get("GROQ_API_KEY",   "")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY",  "")  # optional but recommended
+GROQ_API_KEY   = os.environ.get("GROQ_API_KEY",   "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")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY",  "AIzaSyChaTQy2rFlZkqABqWqyBXjid3nW0QEJV0")  # optional but recommended
 
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
