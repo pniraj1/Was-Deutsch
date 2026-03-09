@@ -1,0 +1,56 @@
+{
+  "phase_1_survival": {
+    "greetings":  ["Hallo","Guten Morgen","Guten Tag","Guten Abend","Auf Wiedersehen","Tschüss","bis bald","bis morgen"],
+    "essentials": ["bitte","danke","ja","nein","okay","klar","gut","Entschuldigung","Entschuldigen Sie","Hilfe","Achtung"],
+    "self":       ["ich","du","Sie","er","sie","wir","mein","meine","dein","heißen","kommen","wohnen","sprechen","verstehen","sein","haben"],
+    "survival":   ["Ich verstehe nicht","Sprechen Sie Englisch?","Wie bitte?","Ich weiß nicht","Wo ist...?","Wie viel kostet das?","Bitte wiederholen","Hilfe bitte"],
+    "numbers":    ["eins","zwei","drei","vier","fünf","sechs","sieben","acht","neun","zehn","elf","zwölf","zwanzig","dreißig","hundert"]
+  },
+  "phase_2_food": {
+    "drinks":   ["der Kaffee","der Tee","das Wasser","das Bier","der Wein","der Saft","die Milch"],
+    "food":     ["das Brot","das Brötchen","die Brezel","das Hähnchen","der Fisch","das Fleisch","das Gemüse","der Apfel","die Banane","die Kartoffel","das Ei","die Butter","der Käse"],
+    "ordering": ["einmal","zweimal","mit","ohne","möchten","bestellen","bezahlen","zahlen","die Rechnung","die Speisekarte","zum Mitnehmen","hier essen","bitte","danke"],
+    "places":   ["die Bäckerei","das Café","das Restaurant","der Kiosk","das Geschäft","der Supermarkt"],
+    "taste":    ["gut","lecker","bitter","süß","teuer","billig","frisch"]
+  },
+  "phase_3_transport": {
+    "transport":  ["die Bahn","der Bus","das Auto","das Taxi","das Fahrrad","das Flugzeug","der Zug","die U-Bahn","die S-Bahn"],
+    "places":     ["der Bahnhof","die Haltestelle","der Flughafen","das Gleis","der Bahnsteig","der Ausgang","der Eingang"],
+    "directions": ["links","rechts","geradeaus","hier","dort","nächste","weit","nah","an der Ecke","daneben","gegenüber"],
+    "tickets":    ["die Fahrkarte","einfach","hin und zurück","der Automat","kaufen","kosten","gültig"],
+    "actions":    ["fahren","gehen","aussteigen","einsteigen","ankommen","abfahren","fliegen","halten"]
+  },
+  "phase_4_social": {
+    "meeting":    ["Wie heißt du?","Woher kommst du?","Wie alt bist du?","Was machst du?","Ich komme aus","Ich arbeite als","Ich bin"],
+    "small_talk": ["Wie geht es Ihnen?","Mir geht es gut","nicht so gut","Es geht","Hast du Zeit?","Vielleicht","natürlich","leider nicht","Ich kann nicht"],
+    "planning":   ["Wann?","Wo?","treffen","kommen","gehen","zusammen","später","morgen","am Wochenende"],
+    "family":     ["die Familie","die Eltern","die Mutter","der Vater","der Bruder","die Schwester","das Kind","der Freund","die Freundin","der Kollege","die Frau","der Mann"]
+  },
+  "phase_5_daily": {
+    "shopping": ["kaufen","suchen","finden","die Größe","die Farbe","die Kasse","bar","mit Karte","das Angebot","günstig"],
+    "health":   ["der Arzt","weh tun","der Kopf","der Bauch","das Fieber","das Medikament","der Termin","krank","besser"],
+    "services": ["die Post","die Bank","das Geld","das Konto","der Brief","die Briefmarke","das Formular","ausfüllen"],
+    "home":     ["die Wohnung","das Haus","das Zimmer","das Bad","die Küche","der Garten","mieten","die Miete"]
+  },
+  "grammar_hooks": {
+    "articles":   ["der","die","das","ein","eine","kein","keine"],
+    "modals":     ["können","müssen","wollen","dürfen","sollen","möchten"],
+    "verbs":      ["sein","haben","werden","gehen","kommen","machen","sagen","sehen","geben","nehmen","wissen","heißen","arbeiten"],
+    "particles":  ["doch","mal","eigentlich","schon","noch","erst","auch","ja","halt"],
+    "questions":  ["was","wer","wie","wo","wann","warum","welche","wie viel"]
+  },
+  "false_cognates": [
+    {"word":"Gift",      "de":"Gift = Poison ☠️",       "trap":"Present 🎁"},
+    {"word":"Mist",      "de":"Mist = Rubbish/Manure",   "trap":"Mist/Fog"},
+    {"word":"Handy",     "de":"Handy = Mobile phone 📱",  "trap":"Handy/Useful"},
+    {"word":"Gymnasium", "de":"Gymnasium = High school 🏫","trap":"Gym 🏋️"},
+    {"word":"Chef",      "de":"Chef = Boss 👔",            "trap":"Cook/Chef 👨‍🍳"},
+    {"word":"Bad",       "de":"Bad = Bathroom 🚿",          "trap":"Bad/Evil"},
+    {"word":"brav",      "de":"brav = Well-behaved",        "trap":"Brave"},
+    {"word":"sensibel",  "de":"sensibel = Sensitive",        "trap":"Sensible"},
+    {"word":"aktuell",   "de":"aktuell = Current",           "trap":"Actual"},
+    {"word":"eventuell", "de":"eventuell = Possibly",        "trap":"Eventually"},
+    {"word":"Fabrik",    "de":"Fabrik = Factory 🏭",         "trap":"Fabric 🧵"},
+    {"word":"bekommen",  "de":"bekommen = To receive",       "trap":"To become"}
+  ]
+}
